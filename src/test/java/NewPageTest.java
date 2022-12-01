@@ -21,7 +21,7 @@ public class NewPageTest {
   @BeforeAll
   public void setupAll() {
     System.setProperty("webdriver.chrome.driver",
-            "src/test/resources/chromedriver_linux64/chromedriver.exe");
+            "src/test/resources/chromedriver_linux64/chromedriver");
   }
 
   @BeforeEach
