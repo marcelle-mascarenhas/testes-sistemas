@@ -32,9 +32,9 @@ public class NewPageTest {
 
   //assertEquals
   @Test
-  public void openPageFalse() {
-    webdriver.get("http://www.artesanatodepernambuco.pe.gov.br");
-    Assertions.assertEquals("http://www.artesanatodepernambuco.pe.gov.br",
+  public void openPage() {
+    webdriver.get("http://www.artesanatodepernambuco.pe.gov.br/");
+    Assertions.assertEquals("http://www.artesanatodepernambuco.pe.gov.br/",
             webdriver.getCurrentUrl());
   }
 
